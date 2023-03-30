@@ -1,0 +1,61 @@
+body {
+  left: 0;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+$blue: #0d8ccd;
+$black: #000;
+$small-font: 16px;
+
+.heading1 {
+  color: $blue;
+  font-size: $small-font;
+  background-color: $black;
+  display: flex;
+  justify-content: center;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+.textbox {
+  h1 {
+    color: red;
+    &:hover {
+      color: black;
+    }
+  }
+}
+input:-webkit-autofill {
+  // -webkit-text-fill-color: yellow !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+button.MuiButtonBase-root.MuiPaginationItem-root.MuiPaginationItem-page.Mui-selected {
+  background-color: rgba(0, 0, 0, 0.48) !important;
+}
+button.MuiButtonBase-root.MuiPaginationItem-root.MuiPaginationItem-page.Mui-disabled.Mui-disabled {
+  color: #fff;
+}
+button.MuiButtonBase-root.MuiPaginationItem-root.MuiPaginationItem-page {
+  color: white;
+}
+// .ReactCrop.ReactCrop--fixed-aspect.ReactCrop--invisible-crop {
+//   max-height: 200px !important;
+// }
+// .ReactCrop.ReactCrop--fixed-aspect {
+//   max-height: 340px !important;
+//   width: 100% !important;
+// }
+// .ReactCrop__child-wrapper>img {
+//   max-width: 100% !important;
+// }
